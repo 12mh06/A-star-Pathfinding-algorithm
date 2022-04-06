@@ -33,7 +33,6 @@ BOARD_PLACE_X = (DISPLAY.get_size()[0] - BOARD_WIDTH) / 2
 BOARD_PLACE_Y = 10
 
 
-# speichert die Distanz zum Startknoten (G) und zum Endknoten (H) für jeden Knoten
 class Tile:
 
     def __init__(self, row, col):
