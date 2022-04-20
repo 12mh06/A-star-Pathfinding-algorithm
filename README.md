@@ -12,8 +12,12 @@ At any point, you may press Backspace to clear all Tiles and to restart.
 Legend:
 
 ORANGE = Start and End of Path 
-GREY = not explred tile
+
+GREY = not explored tile
+
 GREEN = Explored tile; meaning that all its direct neighbours' distances have been Calculated (= all neighbours are BLUE) 
+
 BLUE = Tile that hasn´t been explored, but the distances to the start and end file have been calculated 
+
 RED = Those tiles are Barriers and their distances to the start and end should not be calculated
 
